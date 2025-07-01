@@ -13,7 +13,9 @@ export default function Navbar() {
            <Link to="/">Home</Link>
            <Link to="/products">Products</Link>
            <Link to="/cart">Cart</Link>
+           <Link to='/login' className='login-btn'>Login</Link>
         </nav>
+       
 
          <div className="menu-toggle" onClick={() => setOpen(!open)}>
           ☰
